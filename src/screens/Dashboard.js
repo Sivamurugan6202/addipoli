@@ -3,120 +3,157 @@ import React from 'react'
 const Dashboard = () => {
     return (
         <div>
-
-{/* <!-- ============================================================== -->
-<!-- Page wrapper  -->
-<!-- ============================================================== --> */}
-<div className="page-wrapper">
-    {/* <!-- ============================================================== -->
-    <!-- Container fluid  -->
-    <!-- ============================================================== --> */}
-    <div className="container-fluid">
-        {/* <!-- ============================================================== -->
-        <!-- Bread crumb and right sidebar toggle -->
-        <!-- ============================================================== --> */}
-        <div className="row page-titles">
-            <div className="col-md-5 align-self-center">
-                <ol className="breadcrumb justify-content">
-                    <li className="breadcrumb-item">
-                        <a href="#">Home</a>
-                    </li>
-                    <li className="breadcrumb-item">
-                        <a href="#">Hub Detail</a>
-                    </li>
-                    <li className="breadcrumb-item active">Add Hub-Detail</li>
-                </ol>
-            </div>
-        </div>
-        {/* <!-- ============================================================== -->
-        <!-- End Bread crumb and right sidebar toggle -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- Start Page Content -->
-        <!-- ============================================================== --> */}
-
-        {/* <!-- Row --> */}
-        <div className="row">
-            <div className="col-lg-12">
-                <div className="card">
-                    <form action="#">
-                        <div className="card-body">
-                            <h3 className="card-title">Add Hub Info</h3>
+            <div className="skin-default fixed-layout">
+                <div className="page-wrapper">
+                    {/* <!-- ============================================================== -->
+                    <!-- Container fluid  -->
+                    <!-- ============================================================== --> */}
+                    <div className="container-fluid">
+                        {/* <!-- ============================================================== -->
+                        <!-- Bread crumb and right sidebar toggle -->
+                        <!-- ============================================================== --> */}
+                        <div className="row page-titles">
+                            <div className="col-md-12 align-self-center">
+                                <ol className="breadcrumb justify-content">
+                                    <li className="breadcrumb-item active">Dashboard</li>
+                                </ol>
+                            </div>
                         </div>
-                        <hr />
-                        <div className="form-body">
-                            <div className="card-body">
-                                <div className="row pt-3">
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <label className="form-label">Hub ID</label>
-                                            <input type="text" id="firstName" className="form-control form-select" placeholder="Enter Your Hub ID" />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <label className="form-label">Hub Name</label>
-                                            <input type="text" id="firstName" className="form-control form-select" placeholder="Enter your Hub Name" />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <label className="form-label">Hub Incharge Name</label>
-                                            <input type="text" id="firstName" className="form-control form-select" placeholder="Enter your Hub Incharge Name" />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <label className="form-label">Phone Number</label>
-                                            <input type="text" id="firstName" className="form-control form-select" placeholder="Enter your Phone Number" />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <label className="form-label">Location</label>
-                                            <input type="text" id="firstName" className="form-control form-select" placeholder="Enter your Hub Location" />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <label className="form-label">Pincode</label>
-                                            <input type="text" id="firstName" className="form-control form-select" placeholder="Enter your Hub pincode" />
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="form-group">
-                                            <label className="form-label">Delivery Partner</label>
-                                            <select className="form-control form-select" data-placeholder="Choose a Delivery Partner" tabindex="1">
-                                                <option value="#">Choose a Delivery Partner</option>
-                                                <option value="#">Delivery Partner 1</option>
-                                                <option value="#">Delivery Partner 2</option>
-                                                <option value="#">Delivery Partner 3</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="form-actions">
+                        {/* <!-- ============================================================== -->
+                        <!-- End Bread crumb and right sidebar toggle -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Start Page Content -->
+                        <!-- ============================================================== --> */}
+                        <div className="row">
+                            <div className="col-lg-3 col-md-6">
+                                <div className="card">
                                     <div className="card-body">
-                                        <button type="button" className="btn btn-dark">Back</button>
-                                        <button type="submit" className="btn btn-success text-white">submit</button>
+                                        <div className="row p-t-10 p-b-10">
+                                            <div className="col p-r-0">
+                                                <h1 className="font-light">86</h1>
+                                                <h6 className="text-muted">Total HUB</h6></div>
+                                            <div className="col text-end align-self-center">
+                                                <div data-label="20%" className="css-bar m-b-0 css-bar-primary css-bar-20"><i className="mdi mdi-account-circle"></i></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>        
-                    </form>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <div className="row p-t-10 p-b-10">
+                                            <div className="col p-r-0">
+                                                <h1 className="font-light">248</h1>
+                                                <h6 className="text-muted">Total Customer</h6></div>
+                                            <div className="col text-end align-self-center">
+                                                <div data-label="30%" className="css-bar m-b-0 css-bar-danger css-bar-20"><i className="mdi mdi-briefcase-check"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <div className="row p-t-10 p-b-10">
+                                            <div className="col p-r-0">
+                                                <h1 className="font-light">352</h1>
+                                                <h6 className="text-muted">New Customer</h6></div>
+                                            <div className="col text-end align-self-center">
+                                                <div data-label="40%" className="css-bar m-b-0 css-bar-warning css-bar-40"><i className="mdi mdi-star-circle"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <div className="row p-t-10 p-b-10">
+                                            <div className="col p-r-0">
+                                                <h1 className="font-light">15</h1>
+                                                <h6 className="text-muted">Daily Orders</h6></div>
+                                            <div className="col text-end align-self-center">
+                                                <div data-label="60%" className="css-bar m-b-0 css-bar-info css-bar-60"><i className="mdi mdi-receipt"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                        <div className="col-lg-3 col-md-6">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <div className="row p-t-10 p-b-10">
+                                            <div className="col p-r-0">
+                                                <h1 className="font-light">86</h1>
+                                                <h6 className="text-muted">On-Going Orders</h6></div>
+                                            <div className="col text-end align-self-center">
+                                                <div data-label="20%" className="css-bar m-b-0 css-bar-primary css-bar-20"><i className="mdi mdi-account-circle"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <div className="row p-t-10 p-b-10">
+                                            <div className="col p-r-0">
+                                                <h1 className="font-light">248</h1>
+                                                <h6 className="text-muted">Daily Orders</h6></div>
+                                            <div className="col text-end align-self-center">
+                                                <div data-label="30%" className="css-bar m-b-0 css-bar-danger css-bar-20"><i className="mdi mdi-briefcase-check"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <div className="row p-t-10 p-b-10">
+                                            <div className="col p-r-0">
+                                                <h1 className="font-light">352</h1>
+                                                <h6 className="text-muted">Completed Orders</h6></div>
+                                            <div className="col text-end align-self-center">
+                                                <div data-label="40%" className="css-bar m-b-0 css-bar-warning css-bar-40"><i className="mdi mdi-star-circle"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="card">
+                                    <div className="card-body">
+                                        <div className="row p-t-10 p-b-10">
+                                            <div className="col p-r-0">
+                                                <h1 className="font-light">159</h1>
+                                                <h6 className="text-muted">Total Orders</h6></div>
+                                            <div className="col text-end align-self-center">
+                                                <div data-label="60%" className="css-bar m-b-0 css-bar-info css-bar-60"><i className="mdi mdi-receipt"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {/* <!-- ============================================================== -->
+                        <!-- End PAge Content -->
+                        <!-- ============================================================== --> */}
+                    </div>
+                    {/* <!-- ============================================================== -->
+                    <!-- End Container fluid  -->
+                    <!-- ============================================================== --> */}
                 </div>
             </div>
         </div>
-        {/* <!-- Row --> */}
-                
-    </div>
-    {/* <!-- ============================================================== -->
-    <!-- End Container fluid  -->
-    <!-- ============================================================== --> */}
-</div>
-            
-        </div>
     )
 }
+
 
 export default Dashboard
