@@ -10,7 +10,6 @@ import RejectOrder from './screens/RejectOrder'
 import ViewRejectOrder from './screens/ViewRejectOrder'
 import CompletedOrder from './screens/CompletedOrder'
 import ViewCompletedOrder from './screens/ViewCompletedOrder'
-import CookedOrder from './screens/CookedOrder'
 import DeliveryPartner from './screens/DeliveryPartner'
 import AddDeliveryPartner from './screens/AddDeliveryPartner'
 import EditDeliveryPartner from './screens/EditDeliveryPartner'
@@ -25,6 +24,11 @@ import EditCombo from './screens/EditCombo'
 import CouponList from './screens/CouponList'
 import AddCoupon from './screens/AddCoupon'
 import EditCoupon from './screens/EditCoupon'
+import CookedOrder from './screens/CookedOrder'
+import AddCookedOrder from './screens/AddCookedOrder'
+import Dispatch from './screens/Dispatch'
+import DispatchList from './screens/DispatchList'
+import ViewDispatch from './screens/ViewDispatch'
 import Slider from './screens/Slider'
 import AddSlider from './screens/AddSlider'
 import Blog from './screens/Blog'
@@ -52,7 +56,6 @@ const App = () => {
                 <Route path="/viewreject" component={ViewRejectOrder} />
                 <Route path="/completed" component={CompletedOrder} />
                 <Route path="/viewcompleted" component={ViewCompletedOrder} />
-                <Route path="/cooked" component={CookedOrder} />
                 <Route path="/deliverypartner" component={DeliveryPartner} />
                 <Route path="/adddeliverypartner" component={AddDeliveryPartner} />
                 <Route path="/editdeliverypartner" component={EditDeliveryPartner} />
@@ -67,6 +70,11 @@ const App = () => {
                 <Route path="/coupon" component={CouponList} />
                 <Route path="/addcoupon" component={AddCoupon} />
                 <Route path="/editcoupon" component={EditCoupon} />
+                <Route path="/cooked" component={CookedOrder} />
+                <Route path="/addcooked" component={AddCookedOrder} />
+                <Route path="/dispatch" component={Dispatch} />
+                <Route path="/dispatchlist" component={DispatchList} />
+                <Route path="/viewdispatch" component={ViewDispatch} />
                 <Route path="/slider" component={Slider} />
                 <Route path="/addslider" component={AddSlider} />
                 <Route path="/blog" component={Blog} />

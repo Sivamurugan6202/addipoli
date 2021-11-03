@@ -287,28 +287,18 @@ const Sidebar = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/customers"  className="waves-effect waves-dark" >
-                                            <i className="ti-user"></i>
-                                            <span className="hide-menu">Customer Details</span>
+                                        <a className="waves-effect waves-dark" href="/deliverypartner"
+                                            aria-expanded="false">
+                                            <i className="ti-location-pin"></i>
+                                            <span className="hide-menu">Delivery Partner</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a  className="has-arrow waves-effect waves-dark" href="javascript:void(0)"
+                                        <a className="waves-effect waves-dark" href="/hub"
                                             aria-expanded="false">
                                             <i className="ti-gallery"></i>
                                             <span className="hide-menu">Hub Details</span>
                                         </a>
-                                        <ul aria-expanded="false" className="collapse">
-                                            <li>
-                                                <a href="/hub">Hub Details</a>
-                                            </li>
-                                            <li>
-                                                <a href="/cooked">Cooked Products</a>
-                                            </li>
-                                            {/* <li>
-                                                <a href="/completed">Completed Orders</a>
-                                            </li> */}
-                                        </ul>
                                     </li>
                                     <li>
                                         <a  className="has-arrow waves-effect waves-dark" href="javascript:void(0)"
@@ -329,24 +319,10 @@ const Sidebar = () => {
                                         </ul>
                                     </li>
                                     <li>
-                                        <a className="waves-effect waves-dark" href="/deliverypartner"
-                                            aria-expanded="false">
-                                            <i className="ti-location-pin"></i>
-                                            <span className="hide-menu">Delivery Partner</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="waves-effect waves-dark" href="/enquiry"
-                                            aria-expanded="false">
-                                            <i className="ti-email"></i>
-                                            <span className="hide-menu">Enquiry</span>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a className="has-arrow waves-effect waves-dark" href="javascript:void(0)"
                                             aria-expanded="false">
                                             <i className="ti-files"></i>
-                                            <span className="hide-menu">Product</span>
+                                            <span className="hide-menu">Product Details</span>
                                         </a>
                                         <ul aria-expanded="false" className="collapse">
                                             <li>
@@ -358,7 +334,29 @@ const Sidebar = () => {
                                             <li>
                                                 <a href="/coupon">Coupon Detail</a>
                                             </li>
+                                            <li>
+                                                <a href="/cooked">Cooked Products</a>
+                                            </li>
+                                            <li>
+                                                <a href="/dispatch">Dispatch</a>
+                                            </li>
+                                            <li>
+                                                <a href="/rawmaterial">Raw Material</a>
+                                            </li>
                                         </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/customers"  className="waves-effect waves-dark" >
+                                            <i className="ti-user"></i>
+                                            <span className="hide-menu">Customer Details</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className="waves-effect waves-dark" href="/enquiry"
+                                            aria-expanded="false">
+                                            <i className="ti-email"></i>
+                                            <span className="hide-menu">Enquiry</span>
+                                        </a>
                                     </li>
                                     <li>
                                         <a className="waves-effect waves-dark" href="/slider"
